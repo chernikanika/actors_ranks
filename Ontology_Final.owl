@@ -1,0 +1,1691 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6">
+    <Prefix name="" IRI="http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-6" IRI="http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#"/>
+    <Import>http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15</Import>
+    <Import>http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16</Import>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Актёры_Театров_России"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Иваново"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Москвы"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Омска"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Перми"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Питера"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Салавата"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Сибири"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Смоленска"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Твери"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Череповца"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Актёры_Звания"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_1990"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_1995"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2009"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Актёры_России"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Актёры_боевик"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Актёры_детектив"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Актёры_драма"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Актёры_исторический"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Актёры_комедия"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Актёры_мультфильмы"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Актёры_мюзикл"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Актёры_токшоу"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Актёры_ужасы"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Актёры_фантастика"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Стаж_работы"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Стаж_работы"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Уровень_популярности"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Валерия_Ходос"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Вера_Егорова"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Виктор_Раков"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Виктория_Исакова"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Дамир_Сухов"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Денис_Паршин"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Дмитрий_Певцов"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Лия_Ахеджакова"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Марина_Неелова"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Михаил_Горевой"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Михаил_Ульянов"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Наталья_Круглова"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Ольга_Волкова"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Пётр_Рыков"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Сергей_Астахов"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Юлия_Вуккерт"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Александр_Лазарев"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анатолий_Кот"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Большова"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Каменкова"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Пересильд"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Галина_Петрова"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Евгений_Стычкин"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Екатерина_Климова"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Инга_Оболдина"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Людмила_Иванова"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Мириам_Сехон"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Михаил_Жигалов"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Петр_Баранчеев"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Полина_Пушкарук"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Раиса_Рязанова"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Юлия_Пересильд"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Агата_Муцениеце"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Аглая_Тарасова"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Александр_Яценко"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Валерия_Ланская"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Валерия_Репина"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Владимир_Меньшов"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Владимир_Сычёв"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Гоша_Куценко"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Данила_Козловский"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Диана_Пожарская"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Дмитрий_Нагеев"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Екатерина_Кузнецова"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Елена_Подкоминская"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Катерина_Шпица"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Лика_Рулла"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Маргарита_Аброськина"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Марина_Александрова"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Сергей_Бурунов"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Сергей_Шакуров"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Федор_Добронравов"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Иваново"/>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Актёры_Театров_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Москвы"/>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Актёры_Театров_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Омска"/>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Актёры_Театров_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Перми"/>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Актёры_Театров_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Питера"/>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Актёры_Театров_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Салавата"/>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Актёры_Театров_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Сибири"/>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Актёры_Театров_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Смоленска"/>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Актёры_Театров_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Твери"/>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Актёры_Театров_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Череповца"/>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Актёры_Театров_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_1990"/>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Актёры_Звания"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_1995"/>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Актёры_Звания"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2000"/>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Актёры_Звания"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2003"/>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Актёры_Звания"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2005"/>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Актёры_Звания"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2007"/>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Актёры_Звания"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2009"/>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Актёры_Звания"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2011"/>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Актёры_Звания"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2017"/>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Актёры_Звания"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2021"/>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Актёры_Звания"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Актёры_боевик"/>
+        <Class IRI="#Актёры_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Актёры_детектив"/>
+        <Class IRI="#Актёры_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Актёры_драма"/>
+        <Class IRI="#Актёры_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Актёры_исторический"/>
+        <Class IRI="#Актёры_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Актёры_комедия"/>
+        <Class IRI="#Актёры_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Актёры_мультфильмы"/>
+        <Class IRI="#Актёры_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Актёры_мюзикл"/>
+        <Class IRI="#Актёры_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Актёры_токшоу"/>
+        <Class IRI="#Актёры_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Актёры_ужасы"/>
+        <Class IRI="#Актёры_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Актёры_фантастика"/>
+        <Class IRI="#Актёры_России"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Перми"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Валерия_Ходос"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Перми"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Вера_Егорова"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Череповца"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Виктор_Раков"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Омска"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Виктория_Исакова"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Сибири"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Дамир_Сухов"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Омска"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Денис_Паршин"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Сибири"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Дмитрий_Певцов"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Питера"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Лия_Ахеджакова"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Салавата"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Марина_Неелова"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Твери"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Михаил_Горевой"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Москвы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Михаил_Ульянов"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Иваново"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Наталья_Круглова"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Смоленска"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Ольга_Волкова"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Иваново"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Пётр_Рыков"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Питера"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Сергей_Астахов"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Театры_Москвы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Юлия_Вуккерт"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2021"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Александр_Лазарев"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2009"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анатолий_Кот"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2007"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Большова"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2005"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Каменкова"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2021"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Пересильд"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_1990"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Галина_Петрова"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2017"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Евгений_Стычкин"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2009"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Екатерина_Климова"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2003"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Инга_Оболдина"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_1990"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Людмила_Иванова"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2000"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Мириам_Сехон"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_1995"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Михаил_Жигалов"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2000"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Петр_Баранчеев"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2003"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Полина_Пушкарук"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_1995"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Раиса_Рязанова"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Народный_артист_2011"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Юлия_Пересильд"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актёры_токшоу"/>
+        <NamedIndividual IRI="#Агата_Муцениеце"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актёры_комедия"/>
+        <NamedIndividual IRI="#Аглая_Тарасова"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актёры_боевик"/>
+        <NamedIndividual IRI="#Александр_Яценко"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актёры_мюзикл"/>
+        <NamedIndividual IRI="#Валерия_Ланская"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актёры_исторический"/>
+        <NamedIndividual IRI="#Валерия_Репина"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актёры_детектив"/>
+        <NamedIndividual IRI="#Владимир_Меньшов"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актёры_боевик"/>
+        <NamedIndividual IRI="#Владимир_Сычёв"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актёры_детектив"/>
+        <NamedIndividual IRI="#Гоша_Куценко"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актёры_фантастика"/>
+        <NamedIndividual IRI="#Данила_Козловский"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актёры_драма"/>
+        <NamedIndividual IRI="#Диана_Пожарская"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актёры_токшоу"/>
+        <NamedIndividual IRI="#Дмитрий_Нагеев"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актёры_мультфильмы"/>
+        <NamedIndividual IRI="#Екатерина_Кузнецова"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актёры_драма"/>
+        <NamedIndividual IRI="#Елена_Подкоминская"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актёры_фантастика"/>
+        <NamedIndividual IRI="#Катерина_Шпица"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актёры_мюзикл"/>
+        <NamedIndividual IRI="#Лика_Рулла"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актёры_мультфильмы"/>
+        <NamedIndividual IRI="#Маргарита_Аброськина"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актёры_исторический"/>
+        <NamedIndividual IRI="#Марина_Александрова"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актёры_комедия"/>
+        <NamedIndividual IRI="#Сергей_Бурунов"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актёры_ужасы"/>
+        <NamedIndividual IRI="#Сергей_Шакуров"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Актёры_ужасы"/>
+        <NamedIndividual IRI="#Федор_Добронравов"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Валерия_Ходос"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Валерия_Ходос"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Валерия_Ходос"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Валерия_Ходос"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Вера_Егорова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Вера_Егорова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Вера_Егорова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Вера_Егорова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Виктор_Раков"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Виктор_Раков"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Виктор_Раков"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Виктор_Раков"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Виктория_Исакова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Виктория_Исакова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Виктория_Исакова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Виктория_Исакова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Дамир_Сухов"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Дамир_Сухов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Дамир_Сухов"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Дамир_Сухов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Денис_Паршин"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Денис_Паршин"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Денис_Паршин"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Денис_Паршин"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Дмитрий_Певцов"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Дмитрий_Певцов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Дмитрий_Певцов"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Дмитрий_Певцов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Лия_Ахеджакова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Лия_Ахеджакова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Лия_Ахеджакова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Лия_Ахеджакова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Марина_Неелова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Марина_Неелова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Марина_Неелова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Марина_Неелова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Михаил_Горевой"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Михаил_Горевой"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Михаил_Горевой"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Михаил_Горевой"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Михаил_Ульянов"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Михаил_Ульянов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Михаил_Ульянов"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Михаил_Ульянов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Наталья_Круглова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Наталья_Круглова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Наталья_Круглова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Наталья_Круглова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Ольга_Волкова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Ольга_Волкова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Ольга_Волкова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Ольга_Волкова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Пётр_Рыков"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Пётр_Рыков"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Пётр_Рыков"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Пётр_Рыков"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Сергей_Астахов"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Сергей_Астахов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Сергей_Астахов"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Сергей_Астахов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Юлия_Вуккерт"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Юлия_Вуккерт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Юлия_Вуккерт"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Юлия_Вуккерт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Александр_Лазарев"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Александр_Лазарев"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Александр_Лазарев"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Александр_Лазарев"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анатолий_Кот"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анатолий_Кот"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анатолий_Кот"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анатолий_Кот"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Большова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Большова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Большова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Большова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Каменкова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Каменкова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Каменкова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Каменкова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Пересильд"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Пересильд"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Пересильд"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Пересильд"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Галина_Петрова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Галина_Петрова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Галина_Петрова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Галина_Петрова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Евгений_Стычкин"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Евгений_Стычкин"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Евгений_Стычкин"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Евгений_Стычкин"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Екатерина_Климова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Екатерина_Климова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Екатерина_Климова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Екатерина_Климова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Инга_Оболдина"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Инга_Оболдина"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Инга_Оболдина"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Инга_Оболдина"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Людмила_Иванова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Людмила_Иванова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Людмила_Иванова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Людмила_Иванова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Мириам_Сехон"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Мириам_Сехон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Мириам_Сехон"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Мириам_Сехон"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Михаил_Жигалов"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Михаил_Жигалов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Михаил_Жигалов"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Михаил_Жигалов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Петр_Баранчеев"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Петр_Баранчеев"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Петр_Баранчеев"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Петр_Баранчеев"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Полина_Пушкарук"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Полина_Пушкарук"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Полина_Пушкарук"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Полина_Пушкарук"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Раиса_Рязанова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Раиса_Рязанова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Раиса_Рязанова"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Раиса_Рязанова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Юлия_Пересильд"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Юлия_Пересильд"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Юлия_Пересильд"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Юлия_Пересильд"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Агата_Муцениеце"/>
+        <NamedIndividual IRI="#Агата_Муцениеце"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Агата_Муцениеце"/>
+        <NamedIndividual IRI="#Агата_Муцениеце"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Аглая_Тарасова"/>
+        <NamedIndividual IRI="#Аглая_Тарасова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Аглая_Тарасова"/>
+        <NamedIndividual IRI="#Аглая_Тарасова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Александр_Яценко"/>
+        <NamedIndividual IRI="#Александр_Яценко"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Александр_Яценко"/>
+        <NamedIndividual IRI="#Александр_Яценко"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Валерия_Ланская"/>
+        <NamedIndividual IRI="#Валерия_Ланская"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Валерия_Ланская"/>
+        <NamedIndividual IRI="#Валерия_Ланская"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Валерия_Репина"/>
+        <NamedIndividual IRI="#Валерия_Репина"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Валерия_Репина"/>
+        <NamedIndividual IRI="#Валерия_Репина"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Владимир_Меньшов"/>
+        <NamedIndividual IRI="#Владимир_Меньшов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Владимир_Меньшов"/>
+        <NamedIndividual IRI="#Владимир_Меньшов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Владимир_Сычёв"/>
+        <NamedIndividual IRI="#Владимир_Сычёв"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Владимир_Сычёв"/>
+        <NamedIndividual IRI="#Владимир_Сычёв"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Гоша_Куценко"/>
+        <NamedIndividual IRI="#Гоша_Куценко"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Гоша_Куценко"/>
+        <NamedIndividual IRI="#Гоша_Куценко"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Данила_Козловский"/>
+        <NamedIndividual IRI="#Данила_Козловский"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Данила_Козловский"/>
+        <NamedIndividual IRI="#Данила_Козловский"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Диана_Пожарская"/>
+        <NamedIndividual IRI="#Диана_Пожарская"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Диана_Пожарская"/>
+        <NamedIndividual IRI="#Диана_Пожарская"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Дмитрий_Нагеев"/>
+        <NamedIndividual IRI="#Дмитрий_Нагеев"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Дмитрий_Нагеев"/>
+        <NamedIndividual IRI="#Дмитрий_Нагеев"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Екатерина_Кузнецова"/>
+        <NamedIndividual IRI="#Екатерина_Кузнецова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Екатерина_Кузнецова"/>
+        <NamedIndividual IRI="#Екатерина_Кузнецова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Елена_Подкоминская"/>
+        <NamedIndividual IRI="#Елена_Подкоминская"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Елена_Подкоминская"/>
+        <NamedIndividual IRI="#Елена_Подкоминская"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Катерина_Шпица"/>
+        <NamedIndividual IRI="#Катерина_Шпица"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Катерина_Шпица"/>
+        <NamedIndividual IRI="#Катерина_Шпица"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Лика_Рулла"/>
+        <NamedIndividual IRI="#Лика_Рулла"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Лика_Рулла"/>
+        <NamedIndividual IRI="#Лика_Рулла"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Маргарита_Аброськина"/>
+        <NamedIndividual IRI="#Маргарита_Аброськина"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Маргарита_Аброськина"/>
+        <NamedIndividual IRI="#Маргарита_Аброськина"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Марина_Александрова"/>
+        <NamedIndividual IRI="#Марина_Александрова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Марина_Александрова"/>
+        <NamedIndividual IRI="#Марина_Александрова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Сергей_Бурунов"/>
+        <NamedIndividual IRI="#Сергей_Бурунов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Сергей_Бурунов"/>
+        <NamedIndividual IRI="#Сергей_Бурунов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Сергей_Шакуров"/>
+        <NamedIndividual IRI="#Сергей_Шакуров"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Сергей_Шакуров"/>
+        <NamedIndividual IRI="#Сергей_Шакуров"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Федор_Добронравов"/>
+        <NamedIndividual IRI="#Федор_Добронравов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Федор_Добронравов"/>
+        <NamedIndividual IRI="#Федор_Добронравов"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Валерия_Ходос"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Валерия_Ходос"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Знают в Перми</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Вера_Егорова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Вера_Егорова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Известная</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Виктор_Раков"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Виктор_Раков"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Популярный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Виктория_Исакова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Виктория_Исакова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Знает поколение старше 40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Дамир_Сухов"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Дамир_Сухов"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Известный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Денис_Паршин"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Денис_Паршин"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Неизвестный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Дмитрий_Певцов"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Дмитрий_Певцов"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Известен для поколения 30+</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Лия_Ахеджакова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Лия_Ахеджакова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Очень популярная</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Марина_Неелова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Марина_Неелова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Малоизвестная</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Михаил_Горевой"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">32</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Михаил_Горевой"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Малоизвестный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Михаил_Ульянов"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Михаил_Ульянов"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Известный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Наталья_Круглова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Наталья_Круглова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Очень популярная</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Ольга_Волкова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Ольга_Волкова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Супер популярная</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Пётр_Рыков"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Пётр_Рыков"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Малоизвестный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Сергей_Астахов"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Сергей_Астахов"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Популярный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Юлия_Вуккерт"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15#Юлия_Вуккерт"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Популярная</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Александр_Лазарев"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Александр_Лазарев"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Популярный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анатолий_Кот"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анатолий_Кот"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Популярный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Большова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Большова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Непопулярная</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Каменкова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Каменкова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Популярный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Пересильд"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Анна_Пересильд"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Супер популярный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Галина_Петрова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Галина_Петрова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Популярная</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Евгений_Стычкин"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Евгений_Стычкин"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Никто не знает</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Екатерина_Климова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Екатерина_Климова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Известн</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Инга_Оболдина"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Инга_Оболдина"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Малоизвестная</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Людмила_Иванова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Людмила_Иванова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Очень популярна</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Мириам_Сехон"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Мириам_Сехон"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Популярная</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Михаил_Жигалов"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Михаил_Жигалов"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Известный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Петр_Баранчеев"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Петр_Баранчеев"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">супер </Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Полина_Пушкарук"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Полина_Пушкарук"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Очень извест</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Раиса_Рязанова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Раиса_Рязанова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Известный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Стаж_работы"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Юлия_Пересильд"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Уровень_популярности"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-16#Юлия_Пересильд"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Очень супер извест</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Агата_Муцениеце"/>
+        <Literal datatypeIRI="&xsd;int">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Агата_Муцениеце"/>
+        <Literal datatypeIRI="&xsd;string">Очень известный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Аглая_Тарасова"/>
+        <Literal datatypeIRI="&xsd;int">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Аглая_Тарасова"/>
+        <Literal datatypeIRI="&xsd;string">Популярный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Александр_Яценко"/>
+        <Literal datatypeIRI="&xsd;int">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Александр_Яценко"/>
+        <Literal datatypeIRI="&xsd;string">Малоизвестный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Валерия_Ланская"/>
+        <Literal datatypeIRI="&xsd;int">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Валерия_Ланская"/>
+        <Literal datatypeIRI="&xsd;string">Малоизвестный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Валерия_Репина"/>
+        <Literal datatypeIRI="&xsd;int">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Валерия_Репина"/>
+        <Literal datatypeIRI="&xsd;string">Известный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Владимир_Меньшов"/>
+        <Literal datatypeIRI="&xsd;int">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Владимир_Меньшов"/>
+        <Literal datatypeIRI="&xsd;string">Очень известный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Владимир_Сычёв"/>
+        <Literal datatypeIRI="&xsd;int">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Владимир_Сычёв"/>
+        <Literal datatypeIRI="&xsd;string">Известный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Гоша_Куценко"/>
+        <Literal datatypeIRI="&xsd;int">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Гоша_Куценко"/>
+        <Literal datatypeIRI="&xsd;string">Малоизвестный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Данила_Козловский"/>
+        <Literal datatypeIRI="&xsd;int">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Данила_Козловский"/>
+        <Literal datatypeIRI="&xsd;string">Очень очень популярный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Диана_Пожарская"/>
+        <Literal datatypeIRI="&xsd;int">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Диана_Пожарская"/>
+        <Literal datatypeIRI="&xsd;string">Популярный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Дмитрий_Нагеев"/>
+        <Literal datatypeIRI="&xsd;int">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Дмитрий_Нагеев"/>
+        <Literal datatypeIRI="&xsd;string">Популярный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Екатерина_Кузнецова"/>
+        <Literal datatypeIRI="&xsd;int">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Екатерина_Кузнецова"/>
+        <Literal datatypeIRI="&xsd;string">Малоизвестный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Елена_Подкоминская"/>
+        <Literal datatypeIRI="&xsd;int">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Елена_Подкоминская"/>
+        <Literal datatypeIRI="&xsd;string">Очень известный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Катерина_Шпица"/>
+        <Literal datatypeIRI="&xsd;int">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Катерина_Шпица"/>
+        <Literal datatypeIRI="&xsd;string">Известный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Лика_Рулла"/>
+        <Literal datatypeIRI="&xsd;int">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Лика_Рулла"/>
+        <Literal datatypeIRI="&xsd;string">Неизвестный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Маргарита_Аброськина"/>
+        <Literal datatypeIRI="&xsd;int">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Маргарита_Аброськина"/>
+        <Literal datatypeIRI="&xsd;string">Достаточно известный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Марина_Александрова"/>
+        <Literal datatypeIRI="&xsd;int">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Марина_Александрова"/>
+        <Literal datatypeIRI="&xsd;string">Супер популярный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Сергей_Бурунов"/>
+        <Literal datatypeIRI="&xsd;int">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Сергей_Бурунов"/>
+        <Literal datatypeIRI="&xsd;string">Известный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Сергей_Шакуров"/>
+        <Literal datatypeIRI="&xsd;int">34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Сергей_Шакуров"/>
+        <Literal datatypeIRI="&xsd;string">Очень популярный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Федор_Добронравов"/>
+        <Literal datatypeIRI="&xsd;int">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Федор_Добронравов"/>
+        <Literal datatypeIRI="&xsd;string">Популярный</Literal>
+    </DataPropertyAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
